@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9F4722B1EE626FA001C86A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4722A1EE626FA001C86A7 /* main.swift */; };
+		C9F472441EE6A704001C86A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4722A1EE626FA001C86A7 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C9F472271EE626FA001C86A7 /* Grade_yang_hee_jung */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Grade_yang_hee_jung; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F4722A1EE626FA001C86A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C9F472271EE626FA001C86A7 /* Grade_yang_hee_jung */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = text.script.sh; path = Grade_yang_hee_jung; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F4722A1EE626FA001C86A7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F4722B1EE626FA001C86A7 /* main.swift in Sources */,
+				C9F472441EE6A704001C86A7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -229,6 +230,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -252,6 +254,7 @@
 				C9F472301EE626FA001C86A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

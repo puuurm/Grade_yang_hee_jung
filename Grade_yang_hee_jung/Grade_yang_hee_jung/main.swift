@@ -118,12 +118,12 @@ func makeContents(List: [Student]) -> String {
 }
 
 func writeResultToText(studentList: [Student]) -> Void {
-    let file = "result.txt" //this is the file. we will write to and read from it
+    let file = "result.txt"
     let dir = FileManager.default.homeDirectoryForCurrentUser
     let path = dir.appendingPathComponent(file)
     let contents: String = makeContents(List: studentList)
     
-    //writing
+   
     do {
         try contents.write(to: path, atomically: false, encoding: String.Encoding.utf8)
     }
